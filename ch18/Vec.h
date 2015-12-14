@@ -34,6 +34,9 @@ public:
 	Vec(Vec&&);
 	Vec& operator=(Vec&&);
 
+
+	double& operator[](int n) { return elem[n];}
+
 	double get(int n) const { return elem[n];}
 	void set(int n, double v) {elem[n] = v; }
 
