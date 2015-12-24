@@ -8,8 +8,8 @@ int main()
 {
 	Vec v(10);
 	for(int i=0;i<v.size();++i) {
-		*v[i] = i;
-		cout << *v[i] << endl;
+		v[i] = i;
+		cout << v[i] << endl;
 	}
 
 	return 0;
