@@ -5,7 +5,7 @@
 #include <string>
 #include <iomanip>
 
-using namaspace::std;
+using namespace::std;
 
 int main()
 {
